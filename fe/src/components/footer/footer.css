@@ -1,0 +1,14 @@
+.footerWrapper {
+  box-shadow: 0 0 10px #00000060;
+}
+.footerWrapperDarkTheme {
+  box-shadow: 0 0 10px #ffffff60;
+}
+
+.socialIcon {
+  font-size: 1.2rem;
+}
+
+.contactFooterIcon {
+  font-size: 1.1rem;
+}

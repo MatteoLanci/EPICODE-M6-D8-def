@@ -1,0 +1,27 @@
+GET http://localhost:5050/resources
+
+#####
+
+GET http://localhost:5050/resources/isActive
+
+#####
+
+GET http://localhost:5050/resources/ageGreaterThan
+
+#####
+
+GET http://localhost:5050/resources/ageBetween
+
+#####
+GET http://localhost:5050/resources/eyesBrownOrBlue
+
+#####
+
+GET http://localhost:5050/resources/eyeColorNotGreen
+
+#####
+
+GET http://localhost:5050/resources/eyeColorNotGreenOrBlue
+
+#####
+GET http://localhost:5050/resources/company

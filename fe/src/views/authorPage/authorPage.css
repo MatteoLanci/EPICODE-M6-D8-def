@@ -1,0 +1,53 @@
+.linkToBlogPost {
+  color: currentColor !important;
+  text-decoration: none !important;
+  transition: 0.5s;
+}
+.linkToBlogPost:hover {
+  text-decoration: underline !important;
+}
+
+.AuthorPageImgWrapper {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.changeAvatarIcon {
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 1px solid rgb(43, 41, 41);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  cursor: pointer;
+  color: black !important;
+}
+
+.userData {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.userEmail {
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  background: #1bdd55;
+  border-radius: 4px;
+  padding: 2px 5px;
+  transition: 0.3s;
+}
+.userEmail:hover {
+  background: #16b345;
+}
+
+.userEditData {
+  cursor: pointer;
+}

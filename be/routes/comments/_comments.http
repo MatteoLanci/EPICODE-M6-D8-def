@@ -1,0 +1,28 @@
+######! GET global comments
+GET http://localhost:5050/comments
+
+######! POST new comment
+POST http://localhost:5050/comments/create HTTP/1.1
+Content-Type: application/json
+
+{
+    "userName": "64b981b6688d688eddc4916d",
+    "title": "Questo è da eliminare!",
+    "content": "Commento da eliminare",
+    "rating": 0
+}
+
+######! PATCH a specific comment
+PATCH http://localhost:5050/comments/64b99cd8512a60989b5a6d3f HTTP/1.1
+Content-Type: application/json
+
+{
+    "title":"Tutto sommato ne è valsa la pena (edited)"
+}
+
+######! DELETE a specific comment
+DELETE http://localhost:5050/comments/64b9a343d09f8ef582219c3e
+
+
+######! DELETE all comments of specific Author
+DELETE http://localhost:5050/comments/64c82bf34701377340de1f3d/remove

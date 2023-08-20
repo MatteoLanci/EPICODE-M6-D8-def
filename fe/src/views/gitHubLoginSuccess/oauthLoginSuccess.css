@@ -1,0 +1,13 @@
+.mainWrapper {
+  min-height: 90vh;
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animationWrapper {
+  height: 500px;
+  overflow: hidden;
+}

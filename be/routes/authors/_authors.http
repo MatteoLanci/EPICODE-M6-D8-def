@@ -1,0 +1,38 @@
+GET http://localhost:5050/authors
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdE5hbWUiOiJFbG9uIiwibGFzdE5hbWUiOiJNdXNrIiwiZW1haWwiOiJlbXVza0B0ZXNsYS5jb20iLCJiaXJ0aERhdGUiOiIxOTc3MC0wMi0xNyIsImF2YXRhciI6Imh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL2RibWlxeWJzeC9pbWFnZS91cGxvYWQvdjE2OTA5MTI5NjUvU3RyaXZlQmxvZyUyMCU3QyUyME1hdHRlb0xhbmNpL2dqcmFlMmFpaXR6Mjg1NjhoenkzLmpwZyIsImlkIjoiNjRjODJiZjM0NzAxMzc3MzQwZGUxZjNkIiwiaWF0IjoxNjkxMDY4Mzk5LCJleHAiOjE2OTExMTE1OTl9.GOv0ZLtVUWH8sHz_oSgFdqHL-6e3WEhsbg99KrP46jA
+// GET ALL AUTHORS IN DB
+#####
+
+GET http://localhost:5050/authors/byName?authorName=bri
+//GET POSTS REALTIVE TO AUTHOR NAME
+#####
+
+GET http://localhost:5050/authors/64c82bf34701377340de1f3d
+//GET AUTHORS BY ID
+#####
+
+POST http://localhost:5050/authors/create HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName" : "Ciccio",
+    "lastName" : "Pasticcio",
+    "email": "ciccioPasticcio@gmail.com",
+    "password": "cicciopasticcio",
+    "birthDate": "Jan 01st 1990",
+    "avatar" : "https://i.ytimg.com/vi/pnNCvnlmJXg/maxresdefault.jpg"
+}
+//POST NEW AUTHOR TO DB
+#####
+
+PATCH http://localhost:5050/authors/64c7f1a5f890cc693dd4ce1c HTTP/1.1
+Content-Type: application/json
+
+{
+    "avatar": "https://res.cloudinary.com/dbmiqybsx/image/upload/f_auto,q_auto/v1/StriveBlog%20%7C%20MatteoLanci/sesrzopv7agzyahlnqpg"
+}
+//EDIT AN EXISTING AUTHOR IN DB
+#####
+
+DELETE http://localhost:5050/authors/64ac937ef0283a15b0811071
+//DELENTE AN EXISTING AUTHOR FROM DB

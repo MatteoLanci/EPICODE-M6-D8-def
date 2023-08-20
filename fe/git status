@@ -1,0 +1,63 @@
+[33mcommit 66f2a5189978ae4f5898f15a8c453d0735fd0aa2[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: matteo lanci <m.lanci@live.com>
+Date:   Sun Aug 6 17:10:40 2023 +0200
+
+    edit in package.json + cleaned up code from console.logs
+
+[33mcommit 5a276530102b1c1f430c016b6c4e98e25f9eddcd[m[33m ([m[1;32mmain[m[33m)[m
+Author: matteo lanci <m.lanci@live.com>
+Date:   Sun Aug 6 00:35:23 2023 +0200
+
+    Edit in Login.jsx + login.css
+    
+    Implemented an alert during user registration and reduced the waiting time from registration to the transition for login
+
+[33mcommit 44916b0886d7652ddce63d10aaf66d68068ac6cd[m
+Author: matteo lanci <m.lanci@live.com>
+Date:   Sat Aug 5 20:41:54 2023 +0200
+
+    Edit in BlogPage.jsx
+    
+    Added deletion for own user comments.
+
+[33mcommit 24b16ea840aa64861480d7c06beba379e9841431[m
+Author: matteo lanci <m.lanci@live.com>
+Date:   Sat Aug 5 19:41:59 2023 +0200
+
+    edit in GitHubLoginSuccess.jsx
+    
+    enabled console.log @ row 28 for debugging
+
+[33mcommit a29d51b1476a91cbd2558dfc556802723d61950a[m
+Author: matteo lanci <m.lanci@live.com>
+Date:   Sat Aug 5 15:54:38 2023 +0200
+
+    Edit in Login.jsx
+    
+    added a state for logging in session with a spinner from react-bs
+
+[33mcommit c903ab14e2cd04c5a95e8b2744674c6eeaaaf34b[m
+Author: matteo lanci <m.lanci@live.com>
+Date:   Sat Aug 5 00:05:57 2023 +0200
+
+    edit in blog-author folder
+    
+    edit BlogAuthor.jsx with dynamic carousel with react-multi-carousel library + edit in BlogAuthor.css file
+
+[33mcommit 2e41dd20fd6a546b4c46d83bae6f6368ec631f16[m
+Author: matteo lanci <m.lanci@live.com>
+Date:   Fri Aug 4 20:53:47 2023 +0200
+
+    removed ; from BlogAuthor.jsx
+
+[33mcommit 8812d16e8c15968501031bcb5046f93c2582cf8f[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: matteo lanci <m.lanci@live.com>
+Date:   Thu Aug 3 21:00:02 2023 +0200
+
+    updated files for netlify
+
+[33mcommit 2b17e3087ec14643808b3f5e36c8989b133f7617[m
+Author: matteo lanci <m.lanci@live.com>
+Date:   Thu Aug 3 20:35:24 2023 +0200
+
+    initial commit
