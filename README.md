@@ -9,7 +9,7 @@ StriveBlog is a feature-rich web application that brings together writers and re
 ## Technologies Used 💻
 Server-side: The server is built using Express.js, and data is managed with Mongoose, connecting to a MongoDB database. Cloudinary services are integrated to efficiently handle user-uploaded files and store them in the database.
 
-Client-side: The client is powered by React.js, offering a responsive and intuitive user interface. Bootstrap is used for styling, while React Dom, Lottie, Axios, Nodemailer, and Toastify are integrated to enhance the user experience.
+Client-side: The client is powered by React.js, offering a responsive and intuitive user interface. Bootstrap is used for styling, while React Dom, Lottie, Axios, Nodemailer, Toastify and other libraries are integrated to enhance the user experience.
 
 The project is deployed using Netlify for the client-side and Render.com for the server-side, ensuring a reliable and efficient user experience.
 
@@ -28,5 +28,3 @@ Users can access StriveBlog without a traditional registration process. They can
 
 ## Get Involved 🤝
 Join StriveBlog today and become part of a thriving community of writers and readers. Let your thoughts and ideas shine through engaging blog posts and thoughtful comments. Happy blogging! 💡💬
-
-For any inquiries or assistance, please contact us at contact@striveblog.com. We're here to help!
