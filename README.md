@@ -26,5 +26,11 @@ Users also have the ability to craft their own blog posts and receive feedback f
 ## Access Options 🔒
 Users can access StriveBlog without a traditional registration process. They can choose to log in using their Google or GitHub accounts through the OAuth-Log system, providing an easy and secure way to participate.
 
+## Full-Responsive Design 📱
+StriveBlog is designed to provide an optimal user experience across devices. Whether you're using a desktop, tablet, or smartphone, the interface adapts to your screen size, ensuring seamless navigation and readability.
+
+## Light and Dark Theme 🌓
+Personalize your StriveBlog experience by choosing between a light and dark theme. You can easily switch between themes using the dedicated icon located at the top right corner of the navbar. This feature enhances your comfort while browsing and reading on the platform.
+
 ## Get Involved 🤝
 Join StriveBlog today and become part of a thriving community of writers and readers. Let your thoughts and ideas shine through engaging blog posts and thoughtful comments. Happy blogging! 💡💬
