@@ -1,7 +1,7 @@
 # StriveBlog - A Collaborative Blogging Web Application 💻✍️
 
 ## Try it Out! 🌐
-You can explore the full functionality of StriveBlog by visiting ### <a target="_blank" href="https://main--striveblog-mlanci.netlify.app/">this link.</a> 🖱️
+### You can explore the full functionality of StriveBlog by visiting <a target=_blank href="https://main--striveblog-mlanci.netlify.app/">this link.</a> 🖱️
 
 ## Overview 📄
 StriveBlog is a feature-rich web application that brings together writers and readers in a seamless platform. It utilizes a variety of cutting-edge technologies on both the server and client sides to deliver a smooth and immersive blogging experience.
