@@ -1,4 +1,4 @@
-# <span style="color: #15ed19">StriveBlog</span> - A Collaborative Blogging Web Application 💻✍️
+# StriveBlog - A Collaborative Blogging Web Application 💻✍️
 
 ## Try it Out! 🌐
 ### You can explore the full functionality of StriveBlog by visiting <a target=_blank href="https://main--striveblog-mlanci.netlify.app/" target="_blank">this link.</a> 🖱️
